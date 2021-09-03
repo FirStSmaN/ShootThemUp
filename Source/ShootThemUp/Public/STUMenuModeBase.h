@@ -1,0 +1,18 @@
+// Shoot Them Up game
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/GameModeBase.h"
+#include "STUMenuModeBase.generated.h"
+
+/**
+ * 
+ */
+UCLASS()
+class SHOOTTHEMUP_API ASTUMenuModeBase : public AGameModeBase
+{
+	GENERATED_BODY()
+	public:
+	ASTUMenuModeBase();
+};
